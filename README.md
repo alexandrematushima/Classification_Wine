@@ -9,7 +9,7 @@ Como era necessário estimar a qualidade do vinho, de acordo com 12 atributos de
 
 b. Como foi definida a função de custo utilizada?
 
-Não foi utilizada nenhuma função de custo.
+Não foi utilizada nenhuma função de custo, apenas indicadores de acurácia do modelo.
 
 
 
@@ -22,10 +22,10 @@ O critério para a seleção foi o modelo que apresentou o maior valor de acurá
 d. Qual foi o critério utilizado para validação do modelo? Por que escolheu utilizar este método?
 
 O modelo foi avalidado com os dados de teste (30% da base inicial) e validado através da acurácia balanceada resultante. 
-Esse método foi escolhido pelo fato das classes não estarem balanceadas.
+Esse método de validação foi escolhido pelo fato das classes da variável de saída não estarem balanceadas.
 
 
 
 e. Quais evidências você possui de que seu modelo é suficientemente bom?
 
-Pela boa performance obtida pelo modelo escolhido após a execução dos processos de feature selection através do Random Forest, redução de dimensionalidade PCA e cross validation.
+O algoritmo XGBoost	foi escolhido por apresentar o melhor índice de acurácia balanceada após a execução dos processos de feature selection através do Random Forest, redução de dimensionalidade PCA e cross validation.
