@@ -12,7 +12,7 @@ Não foi utilizada nenhuma função de custo.
 
 
 c. Qual foi o critério utilizado na seleção do modelo final?
-O critério para a seleção foi o modelo que apresentou o maior valor de acurácia balanceada entre todos os modelos avaliados
+O critério para a seleção foi o modelo que apresentou o maior valor de acurácia balanceada entre todos os modelos avaliados.
 
 
 
@@ -23,4 +23,4 @@ Esse método foi escolhido pelo fato das classes não estarem balanceadas.
 
 
 e. Quais evidências você possui de que seu modelo é suficientemente bom?
-Pela boa performance obtida utilizando o modelo escolhido para fazer previsões sobre os dados de teste.
+Pela boa performance obtida pelo modelo escolhido após a execução dos processos de feature selection através do Random Forest, redução de dimensionalidade PCA e cross validation.
